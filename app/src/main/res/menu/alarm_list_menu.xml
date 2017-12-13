@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item android:id="@+id/newAlarm"
+        android:title="New Alarm"
+        android:icon="@drawable/adddrug"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item android:id="@+id/shopDrug"
+        android:title="Buy Drug"
+        android:icon="@drawable/searchdrug"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+</menu>

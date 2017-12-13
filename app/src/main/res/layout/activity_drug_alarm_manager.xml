@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="projects.android.my.mediplus.DrugAlarmManager">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFF"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:text="Set Alarm" />
+
+    <EditText
+        android:id="@+id/etMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:hint="Enter Alarm Message"
+        android:layout_below="@+id/txtHeader"
+        android:layout_alignParentStart="true" />
+
+    <TimePicker
+        android:id="@+id/tpalarmTime"
+        android:timePickerMode="spinner"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/etMsg"
+        android:layout_marginTop="35dp"></TimePicker>
+
+    <DatePicker
+        android:id="@+id/dpalarmDate"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/tpalarmTime"
+        android:layout_alignEnd="@+id/tpalarmTime">
+
+    </DatePicker>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/addDrug"
+        android:title="New Drug"
+        android:icon="@drawable/adddrug"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item android:id="@+id/addAlarm"
+        android:title="Add Alarm"
+        android:icon="@drawable/addalarm"
+        app:showAsAction="ifRoom">
+     </item>
+
+    <item android:id="@+id/searchDrug"
+        android:title="Buy Drug"
+        android:icon="@drawable/searchdrug"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>
